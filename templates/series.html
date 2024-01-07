@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{%block title%}{{search}} - Ripple Stream {%endblock%}
+{%block content%}
+<p></p>
+{% for movie in results %}
+
+<div class="col-md-12 text-center">
+<iframe src={{movie}} allowfullscreen="true" width=300 height=169></iframe>
+</div>
+<p></p>
+{%endfor%}
+{%endblock%}

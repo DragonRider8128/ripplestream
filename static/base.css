@@ -1,0 +1,14 @@
+@font-face{
+font-family: josefinsans;
+src: url('fonts/josefinsans_regular.ttf');
+}
+
+@font-face{
+font-family: josefinsans;
+src: url('fonts/josefinsans_bold.ttf');
+font-weight: bold;
+}
+
+body {font-family: josefinsans;}
+
+h3 {font-weight: bold;}
