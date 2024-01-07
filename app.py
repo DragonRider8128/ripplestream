@@ -35,7 +35,7 @@ def search():
 
     for i in range(5):
       id = results[i].movieID
-      movies.append("https://multiembed.mov/directstream.php?video_id=tt" + str(id))
+      movies.append("https://multiembed.mov/?video_id=tt" + str(id))
       
     
     return render_template('search.html',results=movies,search=name)
